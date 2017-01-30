@@ -1,32 +1,40 @@
 <b>First Part</b></br>
-<i>Make a program that will include the following items. All results should be printed to the console. 
+Make a program that will include the following items. All results should be printed to the console.
 
 Create a variable with your first name. 
 Create a variable with your last name.
 Concatenate both variables and add a space in between to print out [first name] [last name]
 
-Create a variable that shows your year of birth. 
+Create a variable that shows your year of birth.
 Calculate how old you are in this current year.
 
-Concatenate the result of your full name to show the following string: 
+Concatenate the result of your full name to show the following string:
 "Hello, My name is [full name] and I am [age] years old."
 
-Create an array of interests. Please include at least 5 interests. 
-Iterate through all the items in the array and print out the interests. 
-The result of your print statement should be something similar to: 
+Create an array of interests. Please include at least 5 interests.
+Iterate through all the items in the array and print out the interests.
+The result of your print statement should be something similar to:
 
 Hello, my name is....
 
 My interests are: 
 Interest 1,
-Interest 2, 
+Interest 2,
 Interest 3,
 ...
 
 Bonus points: 
-Sort the array of interests first into alpha order and then print them.</i>
+Sort the array of interests first into alpha order and then print them.
 
+<b>Solution:</b>
 
+1. I created the java file WhoAmI.java.
+2. I imported the io.Console, util.Calendar and util.Arrays packages into the file.
+3. In the class WhoAmI, within the main method I declared a series of variables. These included the String fullName, int age, String firstName, String lastName, int birthYear, int currentYear (using a calendar object) and an array of strings representing my interests.
+4. I had the value of fullName equal the composition of the firstName and lastName.
+5. I had the value of age equal to the value of currentYear minus birthYear.
+6. I utilized the Array sort method to sort the array of interests.
+7. I used a console command to print out the values and each string in the array.
 
 <b>Second Part</b></br> 
 <i>Create another array of places you have visited. 
